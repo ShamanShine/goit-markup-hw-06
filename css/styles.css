@@ -342,8 +342,6 @@ a {
     padding-bottom: 120px;
 }
 
-
-
 .team {
     color: var(--c-primary);
     line-height: 1.11;
@@ -446,6 +444,36 @@ a {
     fill: #f4f4fd;
 }
 
+/* !!!!!_Media_ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media(max-width:320px) {
+
+    .team-list {
+        display: contents;
+
+    }
+
+    .team {
+        display: flex;
+        flex-basis: 100%;
+    }
+
+    .ts-team {
+        /* max-width: 320px; */
+        max-width: unset;
+    }
+
+    .team-link {
+        margin-top: 72px;
+
+        /* flex-basis: calc((100% - 48px) / 1); */
+
+
+    }
+}
+
+/* @media (max-width: 768px) { */
+/* Ваши стили для мобильных устройств */
+
 /*Fourth section (Portfolio)*/
 
 .portfolio {
@@ -476,9 +504,23 @@ a {
     align-content: stretch;
 }
 
-.item {
-    width: ((100% - 48px)/3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+/* !!!!!!!!!!!-Media-!!!!!!!!!!!! */
+@media(max-width:320px) {
+    .portfolio-list {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header-portfolio {
+        display: flex;
+        flex-basis: 100%;
+    }
+
+    .item {
+        width: ((100% - 48px)/3);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .item:hover {
