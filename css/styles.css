@@ -1064,4 +1064,53 @@ pointer-events: auto;
     fill: #F4F4FD;
 }
 
-dfgsdfgsdfgsdfgsdfgsdfgsdfg
+/* Медиа запросы */
+@media(min-width:320px) {
+    .menu-container {
+        min-width: 320px;
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        width: 100%;
+        height: 100vh;
+
+        outline: 2px solid red;
+        outline: offset:-2px;
+    }
+
+    .mobile-menu-btn {
+        right: 48px;
+    }
+
+    .mobile-socials {
+        margin-bottom: 40px;
+    }
+}
+
+@media(min-width:768px) {
+    .menu-container {
+        max-width: 768px;
+        width: 100%;
+        height: 100vh;
+        /* max-width: 100%; */
+        padding-left: 16px;
+        padding-right: auto;
+
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+
+}
+
+@media(min-width:1158px) {
+    .menu-container {
+        min-width: 1158px;
+
+    }
+}
