@@ -219,11 +219,79 @@ a {
 
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-img-jpg.jpg);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
     max-width: 1440px;
     margin: 0 auto;
+}
+
+@media only screen and (min-resolution:192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images//bg-retina-mobile/_mob@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* Mobile screen */
+@media screen and(min-width:320px) {
+    .hero {
+        max-width: 320px;
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/bg-retina-mobile/_mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* Tablet screen */
+@media screen and(min-width:768px) {
+    .hero {
+        max-width: 768px;
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/bg-retina-tablet/_tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width:768px) and(min-resolution:192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/bg-retina-tablet/_tablet@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* Desktop screen */
+@media screen and(min-width:1158px) {
+    .hero {
+        max-width: 1158px;
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/bg-retina-desktop-1440/_book.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width:1158px) and(min-resolution:192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/bg-retina-desktop-1440/_book@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 .main-section {
@@ -233,7 +301,8 @@ a {
     margin-right: auto;
     margin-left: auto;
     color: #FFF;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto,
+        sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
