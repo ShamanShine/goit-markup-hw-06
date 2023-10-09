@@ -246,8 +246,7 @@ a {
     min-width: 24px;
     min-height: 24px;
     border: none;
-    /* border: 2px solid var(--c-brand); */
-    /* border-radius: 50%; */
+
     background-color: #E7E9FC;
 }
 
@@ -451,14 +450,51 @@ a {
     gap: 8px;
 }
 
+/* Mobile screen */
+@media screen and (max-width:320px) {
+    .icon {
+        display: none;
+    }
+
+    .second-list {
+
+        display: flex;
+        gap: 72px;
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .main-page {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .main-page-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+    }
+
+}
+
 /*Third section (Our-team)*/
 .ts-team {
     background-color: var(--c-background-light);
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
-
 
 .team {
     color: var(--c-primary);
@@ -560,6 +596,23 @@ a {
 
 .icon-svg {
     fill: #f4f4fd;
+}
+
+/* Mobile screen */
+@media screen and (max-width:320px) {
+    .team-list {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 72px;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .team-link {
+        flex-basis: calc((100% - 16px) / 1);
+    }
+
 }
 
 /*Fourth section (Portfolio)*/
@@ -665,6 +718,24 @@ a {
     letter-spacing: 0.32px;
 }
 
+/* Mobile screen */
+@media screen and (max-width:320px) {
+    .portfolio-list {
+        display: flex;
+
+        gap: 42px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .show-must-go-on {
+
+        /* flex-basis: calc((100% - 16px) / 1) */
+    }
+}
+
+
 /*Footer*/
 .footer {
     display: flex;
@@ -763,6 +834,27 @@ a {
 .tools-footer {
     display: flex;
     align-items: baseline;
+}
+
+/* Mobile screen */
+@media screen and (max-width:320px) {
+    .container {
+        width: 320px;
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        gap: 72px;
+        flex-direction: column;
+
+    }
+
+    .last-form {}
+
+    .logo-plas-text {
+        /* display: block; */
+    }
+
+
 }
 
 /* Modal window */
