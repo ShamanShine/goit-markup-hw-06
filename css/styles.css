@@ -1243,6 +1243,17 @@ transform: translateX(0);
         width: 100%;
     }
 
+    .portfolio-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .show-must-go-on {
+        width: 100%
+    }
+
 }
 
 @media screen and(min-width:768px) {
