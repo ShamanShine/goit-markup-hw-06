@@ -1193,6 +1193,19 @@ transform: translateX(0);
         letter-spacing: 0.02em;
     }
 
+    .hero {
+        padding-top: 72px;
+        padding-bottom: 72px;
+
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
     .icon {
         display: none;
     }
@@ -1256,7 +1269,7 @@ transform: translateX(0);
 
 }
 
-@media screen and(min-width:768px) {
+@media screen and (min-width:768px) {
     .menu-container {
         max-width: 768px;
         width: 100%;
@@ -1270,7 +1283,7 @@ transform: translateX(0);
     }
 }
 
-@media screen and(min-width:1158px) {
+@media screen and (min-width:1158px) {
     .menu-container {
         min-width: 1158px;
     }
