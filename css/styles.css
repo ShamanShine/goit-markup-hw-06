@@ -1254,7 +1254,7 @@ transform: translateX(0);
     }
 
     .show-must-go-on {
-        width: 100%
+        width: 100%;
     }
     .container.tools-footer{
         display: flex;
