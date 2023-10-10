@@ -1287,8 +1287,15 @@ transform: translateX(0);
         }
         .paragraf-footer{
         text-align: center;
-        
-        }
+                }
+                .button-footer{
+                    padding:8px 24px;
+                    margin-left: 61px;
+                    width: 117px;
+                    text-align: center;
+                    align-items: center;
+
+                }
 }
 
 @media screen and(min-width:768px) {
