@@ -1270,15 +1270,24 @@ transform: translateX(0);
         }
         .logo-plas-text{
             margin: 0;
+            text-align: center;
         }
                 .last-form{
                     margin: 0;
                     justify-content: center;
                     align-items:center;
                                     }
-        .social-media{margin:0 auto;}
+        .social-media{
+            /* padding-left: 56px; */
+        text-align: center;
+        }
+
         .all-containe{
             
+        }
+        .paragraf-footer{
+        text-align: center;
+        
         }
 }
 
