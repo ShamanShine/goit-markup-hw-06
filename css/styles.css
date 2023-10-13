@@ -1297,22 +1297,14 @@ transform: translateX(0);
         text-align: center;
         align-items: center;
     }
+
 }
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: 768px;
-
+        min-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
-
-
-
-        /* margin-left: auto;
-        margin-right: auto; */
-
-        /* outline: 2px solid red;
-        outline-offset: -2px; */
     }
 
     .nav-list {
@@ -1326,7 +1318,6 @@ transform: translateX(0);
         align-items: center;
         justify-content: center;
         padding: 16px 16px 16px 16px;
-
     }
 
     .address-link {
@@ -1342,10 +1333,7 @@ transform: translateX(0);
         margin-bottom: 36px;
     }
 
-
-
     .second-list {
-
         flex-direction: row;
         flex-wrap: wrap;
         gap: 50px;
@@ -1355,18 +1343,10 @@ transform: translateX(0);
     .main-item {
         flex-basis: calc((100% - 51px) / 2);
 
-
-
     }
 
     .main-page {
         text-align: left;
-
-    }
-
-    .main-page-title {
-        /* width: 365px; */
-        /* height: auto; */
     }
 
     .card-content-btn {
@@ -1397,7 +1377,7 @@ transform: translateX(0);
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
-        padding: 0 108px;
+
         margin: 0 auto;
     }
 }
@@ -1405,5 +1385,60 @@ transform: translateX(0);
 @media screen and (min-width:1158px) {
     .container {
         max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
+
+    .second-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .main-item {
+        width: 264px;
+    }
+
+
+
+    .icon {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 112px;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        justify-content: center;
+        padding: 24px 100px;
+        background-color: #f4f4fd;
+
+    }
+
+    .main-page {
+        color: var(--c-primary);
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        font-weight: 500;
+
+    }
+
+    .main-page-title {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .second-inner {
+        display: flex;
+        width: 264px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .team-link {
+        flex-basis: initial;
+    }
+
+
 }
