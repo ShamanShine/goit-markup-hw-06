@@ -249,7 +249,7 @@ a {
 
 @media only screen and (min-resolution:192dpi) {
     .hero {
-        background-image:hidden;
+        background-image: hidden;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1382,12 +1382,56 @@ transform: translateX(0);
     }
 
     .container.tools-footer {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: baseline;
-
-        margin: 0 auto;
+        display: inline-block;
+        padding: 0;
     }
+
+    .last-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 72px;
+        align-items: center;
+    }
+
+    .button-footer {
+        margin-left: 10px;
+    }
+
+    .footer-form {
+        display: flex;
+        flex-direction: initial;
+    }
+
+    .paragraf-footer {
+        display: flex;
+        margin-left: -389px;
+    }
+
+    .footer-text {
+
+        text-align: left;
+
+        font-family: Roboto;
+        font-size: 16px;
+
+        font-weight: 400;
+        line-height: 1.5;
+
+        letter-spacing: 0.02em;
+    }
+
+
+    .footer-email {
+        display: flex;
+    }
+
+    .logo-plas-text {
+        margin-left: 108px;
+        text-align: inherit;
+    }
+
+    .all-containe {}
+
 }
 
 @media screen and (min-width:1158px) {
@@ -1402,10 +1446,10 @@ transform: translateX(0);
         gap: 24px;
 
         flex-direction: row;
-        
-        
-            list-style: none;
-            flex-wrap: nowrap;
+
+
+        list-style: none;
+        flex-wrap: nowrap;
     }
 
     .main-item {
@@ -1436,12 +1480,12 @@ transform: translateX(0);
 
     .main-page-title {
         line-height: 1.5;
-        
-            font-family: Roboto;
-            font-size: 16px;
-            font-weight: 400;
-            line-height:1.5;
-            letter-spacing:0.02em;
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 
     .second-inner {
@@ -1456,68 +1500,71 @@ transform: translateX(0);
         flex-basis: initial;
     }
 
-        .team-list {
-            flex-wrap: inherit;
-            gap: 24px;
-        }
+    .team-list {
+        flex-wrap: inherit;
+        gap: 24px;
+    }
 
-     .portfolio-list {
-     display: flex;
-     flex-wrap: wrap;
-      gap: 24px;
+    .portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
     }
 
 
     .show-must-go-on {
         flex-basis: calc((100% - 156px) / 3);
-       
+
     }
 
-        .container.tools-footer {
-            display: contents;
-            width: 100%;
-            
-            
-            margin: 0 auto;
-            padding: 0;
-            /* flex-direction: row;
-            flex-wrap: wrap;
-            align-items: baseline;
-            margin: 0 auto;} */}
+    .container.tools-footer {
+        display: contents;
+        width: 100%;
 
-            .last-form {
-                    display: inline-block;
-                        color: #fff;
-                        margin-left: 80px;
-                }
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    .last-form {
+        display: inline-block;
+        color: #fff;
+        margin-left: 80px;
+    }
+
     .logo-plas-text {
-     margin-left: 60px;
-    
-     }
+        margin-left: 60px;
+
+    }
 
     .button-footer {
-    margin: inherit;
-      }
+        margin: inherit;
+    }
 
     .footer-form {
-    display: flex;
+        display: flex;
         flex-direction: initial;
-        justify-content: center;}
+        justify-content: center;
+    }
 
     .all-containe {
- margin-left: 120px;
+        margin-left: 120px;
     }
-    .footer-logo{
-    margin-left: -148px;
+
+    .footer-logo {
+        margin-left: -148px;
     }
-    .footer-text{
-    text-align: left;
-        }
-    .social-media{
-    text-align: inherit;
+
+    .footer-text {
+        text-align: left;
     }
+
+    .social-media {
+        text-align: inherit;
+    }
+
     .paragraf-footer {
-    text-align: inherit;
+        text-align: inherit;
     }
 
 
