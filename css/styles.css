@@ -1391,6 +1391,7 @@ transform: translateX(0);
         flex-direction: column;
         margin-top: 72px;
         align-items: center;
+        margin-left: -89px;
     }
 
     .button-footer {
@@ -1430,7 +1431,13 @@ transform: translateX(0);
         text-align: inherit;
     }
 
-    .all-containe {}
+    .all-containe {
+        padding-left: 24px;
+    }
+
+    .social-media {
+        text-align: left;
+    }
 
 }
 
