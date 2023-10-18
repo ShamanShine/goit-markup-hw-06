@@ -1545,7 +1545,7 @@ transform: translateX(0);
     }
 
     .button-footer {
-        margin: inherit;
+        /* margin: inherit; */
     }
 
     .footer-form {
@@ -1559,7 +1559,7 @@ transform: translateX(0);
     }
 
     .footer-logo {
-        margin-left: -148px;
+        /* margin-left: -148px; */
     }
 
     .footer-text {
@@ -1571,7 +1571,13 @@ transform: translateX(0);
     }
 
     .paragraf-footer {
-        text-align: inherit;
+
+        display: block;
+        margin-left: -312px;
+    }
+
+    .footer-email {
+        margin-left: 80px;
     }
 
 
