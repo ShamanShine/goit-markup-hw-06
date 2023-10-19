@@ -234,7 +234,7 @@ a {
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 0;
-    height: 600px;
+    /* height: 600px; */
 
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url("../images/bg-retina-desktop-1440/book.jpg");
@@ -340,7 +340,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     display: block;
     min-width: 169px;
     height: 56px;
-    margin: 48px auto auto;
+    margin: 72px auto auto;
+    /* увел.марж с 48 до 72 */
     padding: 16px 32px;
     border: none;
     color: #FFF;
@@ -1237,6 +1238,18 @@ transform: translateX(0);
         text-align: center;
     }
 
+    .main-section {
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        width: 221px;
+        height: 160px;
+        text-align: center;
+    }
+
     .main-button {
         display: flex;
         text-align: end;
@@ -1245,6 +1258,11 @@ transform: translateX(0);
 
     .hero {
         padding: 72px 0;
+    }
+
+    .section {
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .team-list {
@@ -1343,6 +1361,12 @@ transform: translateX(0);
 
     .main-section {
         margin-bottom: 36px;
+        width: 374px;
+        height: auto;
+    }
+
+    .main-button {
+        margin: 36px auto auto;
     }
 
     .second-list {
