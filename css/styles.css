@@ -1182,9 +1182,9 @@ transform: translateX(0);
         outline-offset: -2px; */
     }
 
-    .logo {
-        /* margin-left: 16px; */
-    }
+    /* .logo {
+margin-left: 16px;
+} */
 
     .nav-list {
         display: none;
@@ -1577,9 +1577,9 @@ transform: translateX(0);
 
     }
 
-    .button-footer {
-        /* margin: inherit; */
-    }
+    /* .button-footer {
+    margin: inherit;
+} */
 
     .footer-form {
         display: flex;
@@ -1591,9 +1591,9 @@ transform: translateX(0);
         margin-left: 120px;
     }
 
-    .footer-logo {
-        /* margin-left: -148px; */
-    }
+    /* .footer-logo {
+        margin-left: -148px;
+    } */
 
     .footer-text {
         text-align: left;
